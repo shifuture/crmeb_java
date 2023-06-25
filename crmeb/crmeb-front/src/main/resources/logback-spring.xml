@@ -30,7 +30,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 
             <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
-            <pattern>
+            <!--<pattern>
 
                 <pattern>
                     {
@@ -42,7 +42,8 @@
                     "message": "%msg" }
                     %n
                 </pattern>
-            </pattern>
+            </pattern>-->
+            <pattern>%d{ISO8601} [%thread][%level][%logger{80}] %replace(%ex{full}){'\n', '\n\t'}%replace(%msg){'\n', '\n\t'}%n</pattern>
             <charset>utf-8</charset>
         </encoder>
     </appender>
@@ -59,7 +60,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 
             <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
-            <pattern>
+            <!--<pattern>
 
                 <pattern>
                     {
@@ -71,7 +72,8 @@
                     "message": "%msg" }
                     %n
                 </pattern>
-            </pattern>
+            </pattern>-->
+            <pattern>%d{ISO8601} [%thread][%level][%logger{80}] %replace(%ex{full}){'\n', '\n\t'}%replace(%msg){'\n', '\n\t'}%n</pattern>
             <charset>utf-8</charset>
         </encoder>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
@@ -100,7 +102,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 
             <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
-            <pattern>
+            <!--<pattern>
 
                 <pattern>
                     {
@@ -112,7 +114,8 @@
                     "message": "%msg" }
                     %n
                 </pattern>
-            </pattern>
+            </pattern>-->
+            <pattern>%d{ISO8601} [%thread][%level][%logger{80}] %replace(%ex{full}){'\n', '\n\t'}%replace(%msg){'\n', '\n\t'}%n</pattern>
             <charset>utf-8</charset>
         </encoder>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
@@ -141,7 +144,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 
             <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
-            <pattern>
+            <!--<pattern>
 
                 <pattern>
                     {
@@ -153,7 +156,8 @@
                     "message": "%msg" }
                     %n
                 </pattern>
-            </pattern>
+            </pattern>-->
+            <pattern>%d{ISO8601} [%thread][%level][%logger{80}] %replace(%ex{full}){'\n', '\n\t'}%replace(%msg){'\n', '\n\t'}%n</pattern>
             <charset>utf-8</charset>
         </encoder>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
@@ -182,7 +186,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 
             <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
-            <pattern>
+            <!--<pattern>
 
                 <pattern>
                     {
@@ -194,7 +198,8 @@
                     "message": "%msg" }
                     %n
                 </pattern>
-            </pattern>
+            </pattern>-->
+            <pattern>%d{ISO8601} [%thread][%level][%logger{80}] %replace(%ex{full}){'\n', '\n\t'}%replace(%msg){'\n', '\n\t'}%n</pattern>
             <charset>utf-8</charset>
         </encoder>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->

@@ -50,6 +50,7 @@ function baseRequest(url, method, data, {
 					reject(res.data.message || '系统错误');
 			},
 			fail: (msg) => {
+				console.log(url)
 				reject('请求失败');
 			}
 		})
